@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A441F10527404AFE00EC06AE /* sample8.json in Resources */ = {isa = PBXBuildFile; fileRef = A441F10327404AFE00EC06AE /* sample8.json */; };
+		A44723BE272C345E004E0CEC /* SCDLTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44723BD272C345E004E0CEC /* SCDLTextStyle.swift */; };
+		A44723D1272C42E4004E0CEC /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A44723C6272C42E4004E0CEC /* OpenSans-Bold.ttf */; };
+		A44723D4272C42E4004E0CEC /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A44723C9272C42E4004E0CEC /* LICENSE.txt */; };
+		A459723D27316CC100200B1C /* SCDLTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44723BD272C345E004E0CEC /* SCDLTextStyle.swift */; };
+		A4750702272B1077003797DE /* SmartChartDriversLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4750701272B1077003797DE /* SmartChartDriversLogApp.swift */; };
+		A4750704272B1077003797DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4750703272B1077003797DE /* ContentView.swift */; };
+		A4750706272B1078003797DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4750705272B1078003797DE /* Assets.xcassets */; };
+		A4750709272B1078003797DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4750708272B1078003797DE /* Preview Assets.xcassets */; };
+		A4750713272B1079003797DE /* SmartChartHosLogsViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4750712272B1079003797DE /* SmartChartHosLogsViewTests.swift */; };
+		A475071D272B1079003797DE /* SmartChartDriversLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475071C272B1079003797DE /* SmartChartDriversLogUITests.swift */; };
+		A475071F272B1079003797DE /* SmartChartDriversLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475071E272B1079003797DE /* SmartChartDriversLogUITestsLaunchTests.swift */; };
+		A4B32448273302C50014B904 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B32447273302C50014B904 /* DraggableView.swift */; };
+		A4BF317F274024310075F6C4 /* ChartStickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF317E274024310075F6C4 /* ChartStickView.swift */; };
+		A4DD7CF3273EB28200E73F5D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DD7CF2273EB28200E73F5D /* Constants.swift */; };
+		A4ECA76F27308AFB00EE723A /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ECA76E27308AFB00EE723A /* SampleData.swift */; };
+		A4F81C38274588B6000E3B7F /* SmartChartHosLogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F81C37274588B6000E3B7F /* SmartChartHosLogsView.swift */; };
+		A4F81C3A27458914000E3B7F /* SmartChartHosLogsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F81C3927458914000E3B7F /* SmartChartHosLogsViewModel.swift */; };
+		A4FDED9A274BE31D00C60CF2 /* DrawLogBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FDED95274BE31D00C60CF2 /* DrawLogBoxView.swift */; };
+		A4FDED9C274BE31E00C60CF2 /* YardPCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FDED97274BE31D00C60CF2 /* YardPCView.swift */; };
+		A4FDED9D274BE31E00C60CF2 /* BlockTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FDED98274BE31D00C60CF2 /* BlockTimeView.swift */; };
+		A4FDED9E274BE31E00C60CF2 /* LogBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FDED99274BE31D00C60CF2 /* LogBoxView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A475070F272B1079003797DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A47506F6272B1077003797DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A47506FD272B1077003797DE;
+			remoteInfo = SmartChartDriversLog;
+		};
+		A4750719272B1079003797DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A47506F6272B1077003797DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A47506FD272B1077003797DE;
+			remoteInfo = SmartChartDriversLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A441F10327404AFE00EC06AE /* sample8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample8.json; sourceTree = "<group>"; };
+		A44723BD272C345E004E0CEC /* SCDLTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDLTextStyle.swift; sourceTree = "<group>"; };
+		A44723C6272C42E4004E0CEC /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		A44723C9272C42E4004E0CEC /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		A47506FE272B1077003797DE /* SmartChartDriversLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartChartDriversLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4750701272B1077003797DE /* SmartChartDriversLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartChartDriversLogApp.swift; sourceTree = "<group>"; };
+		A4750703272B1077003797DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4750705272B1078003797DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4750708272B1078003797DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A475070E272B1079003797DE /* SmartChartDriversLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartChartDriversLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4750712272B1079003797DE /* SmartChartHosLogsViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartChartHosLogsViewTests.swift; sourceTree = "<group>"; };
+		A4750718272B1079003797DE /* SmartChartDriversLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartChartDriversLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A475071C272B1079003797DE /* SmartChartDriversLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartChartDriversLogUITests.swift; sourceTree = "<group>"; };
+		A475071E272B1079003797DE /* SmartChartDriversLogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartChartDriversLogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A489DCEC27454A4D007BB6D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A4B32447273302C50014B904 /* DraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		A4BF317E274024310075F6C4 /* ChartStickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartStickView.swift; sourceTree = "<group>"; };
+		A4DD7CF2273EB28200E73F5D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A4ECA76E27308AFB00EE723A /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		A4F81C37274588B6000E3B7F /* SmartChartHosLogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartChartHosLogsView.swift; sourceTree = "<group>"; };
+		A4F81C3927458914000E3B7F /* SmartChartHosLogsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartChartHosLogsViewModel.swift; sourceTree = "<group>"; };
+		A4FDED95274BE31D00C60CF2 /* DrawLogBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawLogBoxView.swift; sourceTree = "<group>"; };
+		A4FDED97274BE31D00C60CF2 /* YardPCView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YardPCView.swift; sourceTree = "<group>"; };
+		A4FDED98274BE31D00C60CF2 /* BlockTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockTimeView.swift; sourceTree = "<group>"; };
+		A4FDED99274BE31D00C60CF2 /* LogBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogBoxView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A47506FB272B1077003797DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A475070B272B1079003797DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4750715272B1079003797DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A44723BC272C3444004E0CEC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A44723BD272C345E004E0CEC /* SCDLTextStyle.swift */,
+				A4ECA76E27308AFB00EE723A /* SampleData.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		A44723BF272C42E4004E0CEC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A44723C0272C42E4004E0CEC /* OpenSans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A44723C0272C42E4004E0CEC /* OpenSans */ = {
+			isa = PBXGroup;
+			children = (
+				A44723C6272C42E4004E0CEC /* OpenSans-Bold.ttf */,
+				A44723C9272C42E4004E0CEC /* LICENSE.txt */,
+			);
+			path = OpenSans;
+			sourceTree = "<group>";
+		};
+		A47506F5272B1077003797DE = {
+			isa = PBXGroup;
+			children = (
+				A4750700272B1077003797DE /* SmartChartDriversLog */,
+				A4750711272B1079003797DE /* SmartChartDriversLogTests */,
+				A475071B272B1079003797DE /* SmartChartDriversLogUITests */,
+				A47506FF272B1077003797DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A47506FF272B1077003797DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A47506FE272B1077003797DE /* SmartChartDriversLog.app */,
+				A475070E272B1079003797DE /* SmartChartDriversLogTests.xctest */,
+				A4750718272B1079003797DE /* SmartChartDriversLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4750700272B1077003797DE /* SmartChartDriversLog */ = {
+			isa = PBXGroup;
+			children = (
+				A4F81C3B27459685000E3B7F /* SmartChartHosLogs */,
+				A4BF317D274024230075F6C4 /* Views */,
+				A4DD7CF1273EB27600E73F5D /* Constants */,
+				A4ECA7722730960000EE723A /* Json */,
+				A44723BC272C3444004E0CEC /* Utility */,
+				A475072F272B1A84003797DE /* SmartChatForLogs */,
+				A4750701272B1077003797DE /* SmartChartDriversLogApp.swift */,
+				A4750703272B1077003797DE /* ContentView.swift */,
+				A489DCEC27454A4D007BB6D6 /* Info.plist */,
+				A4750705272B1078003797DE /* Assets.xcassets */,
+				A44723BF272C42E4004E0CEC /* Fonts */,
+				A4750707272B1078003797DE /* Preview Content */,
+			);
+			path = SmartChartDriversLog;
+			sourceTree = "<group>";
+		};
+		A4750707272B1078003797DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4750708272B1078003797DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4750711272B1079003797DE /* SmartChartDriversLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4750712272B1079003797DE /* SmartChartHosLogsViewTests.swift */,
+			);
+			path = SmartChartDriversLogTests;
+			sourceTree = "<group>";
+		};
+		A475071B272B1079003797DE /* SmartChartDriversLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A475071C272B1079003797DE /* SmartChartDriversLogUITests.swift */,
+				A475071E272B1079003797DE /* SmartChartDriversLogUITestsLaunchTests.swift */,
+			);
+			path = SmartChartDriversLogUITests;
+			sourceTree = "<group>";
+		};
+		A475072F272B1A84003797DE /* SmartChatForLogs */ = {
+			isa = PBXGroup;
+			children = (
+				A4B32447273302C50014B904 /* DraggableView.swift */,
+			);
+			path = SmartChatForLogs;
+			sourceTree = "<group>";
+		};
+		A4BF317D274024230075F6C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4BF317E274024310075F6C4 /* ChartStickView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4DD7CF1273EB27600E73F5D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A4DD7CF2273EB28200E73F5D /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A4ECA7722730960000EE723A /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				A441F10327404AFE00EC06AE /* sample8.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		A4F81C3B27459685000E3B7F /* SmartChartHosLogs */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDED98274BE31D00C60CF2 /* BlockTimeView.swift */,
+				A4FDED95274BE31D00C60CF2 /* DrawLogBoxView.swift */,
+				A4FDED99274BE31D00C60CF2 /* LogBoxView.swift */,
+				A4FDED97274BE31D00C60CF2 /* YardPCView.swift */,
+				A4F81C37274588B6000E3B7F /* SmartChartHosLogsView.swift */,
+				A4F81C3927458914000E3B7F /* SmartChartHosLogsViewModel.swift */,
+			);
+			path = SmartChartHosLogs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A47506FD272B1077003797DE /* SmartChartDriversLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4750722272B1079003797DE /* Build configuration list for PBXNativeTarget "SmartChartDriversLog" */;
+			buildPhases = (
+				A47506FA272B1077003797DE /* Sources */,
+				A47506FB272B1077003797DE /* Frameworks */,
+				A47506FC272B1077003797DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartChartDriversLog;
+			productName = SmartChartDriversLog;
+			productReference = A47506FE272B1077003797DE /* SmartChartDriversLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A475070D272B1079003797DE /* SmartChartDriversLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4750725272B1079003797DE /* Build configuration list for PBXNativeTarget "SmartChartDriversLogTests" */;
+			buildPhases = (
+				A475070A272B1079003797DE /* Sources */,
+				A475070B272B1079003797DE /* Frameworks */,
+				A475070C272B1079003797DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4750710272B1079003797DE /* PBXTargetDependency */,
+			);
+			name = SmartChartDriversLogTests;
+			productName = SmartChartDriversLogTests;
+			productReference = A475070E272B1079003797DE /* SmartChartDriversLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4750717272B1079003797DE /* SmartChartDriversLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4750728272B1079003797DE /* Build configuration list for PBXNativeTarget "SmartChartDriversLogUITests" */;
+			buildPhases = (
+				A4750714272B1079003797DE /* Sources */,
+				A4750715272B1079003797DE /* Frameworks */,
+				A4750716272B1079003797DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A475071A272B1079003797DE /* PBXTargetDependency */,
+			);
+			name = SmartChartDriversLogUITests;
+			productName = SmartChartDriversLogUITests;
+			productReference = A4750718272B1079003797DE /* SmartChartDriversLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A47506F6272B1077003797DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A47506FD272B1077003797DE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					A475070D272B1079003797DE = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A47506FD272B1077003797DE;
+					};
+					A4750717272B1079003797DE = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A47506FD272B1077003797DE;
+					};
+				};
+			};
+			buildConfigurationList = A47506F9272B1077003797DE /* Build configuration list for PBXProject "SmartChartDriversLog" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A47506F5272B1077003797DE;
+			productRefGroup = A47506FF272B1077003797DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A47506FD272B1077003797DE /* SmartChartDriversLog */,
+				A475070D272B1079003797DE /* SmartChartDriversLogTests */,
+				A4750717272B1079003797DE /* SmartChartDriversLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A47506FC272B1077003797DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A441F10527404AFE00EC06AE /* sample8.json in Resources */,
+				A44723D4272C42E4004E0CEC /* LICENSE.txt in Resources */,
+				A4750709272B1078003797DE /* Preview Assets.xcassets in Resources */,
+				A44723D1272C42E4004E0CEC /* OpenSans-Bold.ttf in Resources */,
+				A4750706272B1078003797DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A475070C272B1079003797DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4750716272B1079003797DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A47506FA272B1077003797DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B32448273302C50014B904 /* DraggableView.swift in Sources */,
+				A4F81C3A27458914000E3B7F /* SmartChartHosLogsViewModel.swift in Sources */,
+				A44723BE272C345E004E0CEC /* SCDLTextStyle.swift in Sources */,
+				A4FDED9C274BE31E00C60CF2 /* YardPCView.swift in Sources */,
+				A4DD7CF3273EB28200E73F5D /* Constants.swift in Sources */,
+				A4FDED9E274BE31E00C60CF2 /* LogBoxView.swift in Sources */,
+				A4750704272B1077003797DE /* ContentView.swift in Sources */,
+				A4BF317F274024310075F6C4 /* ChartStickView.swift in Sources */,
+				A4FDED9D274BE31E00C60CF2 /* BlockTimeView.swift in Sources */,
+				A4FDED9A274BE31D00C60CF2 /* DrawLogBoxView.swift in Sources */,
+				A4750702272B1077003797DE /* SmartChartDriversLogApp.swift in Sources */,
+				A4F81C38274588B6000E3B7F /* SmartChartHosLogsView.swift in Sources */,
+				A4ECA76F27308AFB00EE723A /* SampleData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A475070A272B1079003797DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A459723D27316CC100200B1C /* SCDLTextStyle.swift in Sources */,
+				A4750713272B1079003797DE /* SmartChartHosLogsViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4750714272B1079003797DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A475071F272B1079003797DE /* SmartChartDriversLogUITestsLaunchTests.swift in Sources */,
+				A475071D272B1079003797DE /* SmartChartDriversLogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4750710272B1079003797DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A47506FD272B1077003797DE /* SmartChartDriversLog */;
+			targetProxy = A475070F272B1079003797DE /* PBXContainerItemProxy */;
+		};
+		A475071A272B1079003797DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A47506FD272B1077003797DE /* SmartChartDriversLog */;
+			targetProxy = A4750719272B1079003797DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4750720272B1079003797DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4750721272B1079003797DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4750723272B1079003797DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartChartDriversLog/Preview Content\"";
+				DEVELOPMENT_TEAM = 27SZ9K8V4K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartChartDriversLog/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.b.c.SmartChartDriversLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4750724272B1079003797DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartChartDriversLog/Preview Content\"";
+				DEVELOPMENT_TEAM = 27SZ9K8V4K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartChartDriversLog/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.b.c.SmartChartDriversLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4750726272B1079003797DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27SZ9K8V4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.b.c.SmartChartDriversLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartChartDriversLog.app/SmartChartDriversLog";
+			};
+			name = Debug;
+		};
+		A4750727272B1079003797DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27SZ9K8V4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.b.c.SmartChartDriversLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartChartDriversLog.app/SmartChartDriversLog";
+			};
+			name = Release;
+		};
+		A4750729272B1079003797DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27SZ9K8V4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.b.c.SmartChartDriversLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartChartDriversLog;
+			};
+			name = Debug;
+		};
+		A475072A272B1079003797DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27SZ9K8V4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.b.c.SmartChartDriversLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartChartDriversLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A47506F9272B1077003797DE /* Build configuration list for PBXProject "SmartChartDriversLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4750720272B1079003797DE /* Debug */,
+				A4750721272B1079003797DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4750722272B1079003797DE /* Build configuration list for PBXNativeTarget "SmartChartDriversLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4750723272B1079003797DE /* Debug */,
+				A4750724272B1079003797DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4750725272B1079003797DE /* Build configuration list for PBXNativeTarget "SmartChartDriversLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4750726272B1079003797DE /* Debug */,
+				A4750727272B1079003797DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4750728272B1079003797DE /* Build configuration list for PBXNativeTarget "SmartChartDriversLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4750729272B1079003797DE /* Debug */,
+				A475072A272B1079003797DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A47506F6272B1077003797DE /* Project object */;
+}
