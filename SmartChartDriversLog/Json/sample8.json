@@ -1,186 +1,106 @@
 {
     "sampleData": [
         {
-                  "toTime" : "11\/03\/2021 01:07:00",
-                  "status" : "onduty",
-                  "location" : "0mi ENE Groveport, OH",
-                  "editReason" : "Hardware Failure",
-                  "notes" : "resting",
-                  "isEditable" : false,
-                  "uuid" : "b78cd271-bd37-4036-852e-6725e483aa7f",
-                  "duration" : "25:07",
-                  "driveDistance" : "0",
-                  "odometerKm" : "1367466.037632",
-                  "fromTime" : "11\/03\/2021 00:00:00"
-                },
-                {
-                  "toTime" : "11\/03\/2021 01:58:00",
-                  "status" : "Driving",
-                  "location" : "0mi ENE Groveport, OH",
-                  "editReason" : "Hardware Failure",
-                  "notes" : "",
-                  "isEditable" : false,
-                  "uuid" : "b78cd271-bd37-4036-852e-6725e483aa7f",
-                  "duration" : "00:51",
-                  "driveDistance" : "0",
-                  "odometerKm" : "1367466.037632",
-                  "fromTime" : "11\/03\/2021 01:07:00"
-                },
-                {
-                  "toTime" : "11\/03\/2021 02:17:00",
-                  "status" : "YardMoves",
-                  "location" : "3mi SW Jeffersonville, OH",
-                  "editReason" : "Hardware Failure",
-                  "notes" : "fueling",
-                  "isEditable" : false,
-                  "uuid" : "08972492-7633-4839-9814-41426b0965f2",
-                  "duration" : "00:19",
-                  "driveDistance" : "0",
-                  "odometerKm" : "1367543.037632",
-                  "fromTime" : "11\/03\/2021 01:58:00"
-                },
-                {
-                  "toTime" : "11\/03\/2021 06:25:00",
-                  "status" : "Driving",
-                  "location" : "3mi SW Jeffersonville, OH",
-                  "editReason" : "Hardware Failure",
-                  "notes" : "",
-                  "isEditable" : false,
-                  "uuid" : "bdd0be06-114f-4b0c-aacd-bf0ed448dd43",
-                  "duration" : "04:08",
-                  "driveDistance" : "0",
-                  "odometerKm" : "1367543.037632",
-                  "fromTime" : "11\/03\/2021 02:17:00"
-                },
-                {
-                  "toTime" : "11\/03\/2021 06:37:00",
-                  "status" : "OnDuty",
-                  "location" : "2mi SSW Williamsburg, KY",
-                  "editReason" : "Hardware Failure",
-                  "notes" : "",
-                  "isEditable" : false,
-                  "uuid" : "d5ef8b43-21d7-499e-a25f-128cc61e61dd",
-                  "duration" : "00:12",
-                  "driveDistance" : "0",
-                  "odometerKm" : "1367961.037632",
-                  "fromTime" : "11\/03\/2021 06:25:00"
-                },
-                {
-                  "toTime" : "11\/03\/2021 07:09:00",
-                  "status" : "Driving",
-                  "location" : "2mi SSW Williamsburg, KY",
-                  "editReason" : "Hardware Failure",
-                  "notes" : "",
-                  "isEditable" : false,
-                  "uuid" : "86e0bd87-f8e5-4275-add9-8c94ba24d3f6",
-                  "duration" : "00:32",
-                  "driveDistance" : "0",
-                  "odometerKm" : "1367961.037632",
-                  "fromTime" : "11\/03\/2021 06:37:00"
-                },
-                {
-                  "toTime" : "11\/03\/2021 15:04:00",
-                  "status" : "PersonalConveyance",
-                  "location" : "5mi NW Jacksboro, TN",
-                  "editReason" : "Hardware Failure",
-                  "notes" : "",
-                  "isEditable" : false,
-                  "uuid" : "2a4a38e2-0e8a-4959-b807-37c6a0a60f18",
-                  "duration" : "07:55",
-                  "driveDistance" : "0",
-                  "odometerKm" : "1368011.037632",
-                  "fromTime" : "11\/03\/2021 07:09:00"
-                },
-                {
-                  "toTime" : "11\/03\/2021 15:15:00",
-                  "status" : "OnDuty",
-                  "location" : "5mi NW Jacksboro, TN",
-                  "editReason" : "Hardware Failure",
-                  "notes" : "",
-                  "isEditable" : false,
-                  "uuid" : "f04bc6db-e67d-46fc-98a9-71a88d6cc14e",
-                  "duration" : "00:11",
-                  "driveDistance" : "0",
-                  "odometerKm" : "1368011.037632",
-                  "fromTime" : "11\/03\/2021 15:04:00"
-                },
-                {
-                  "toTime" : "11\/03\/2021 18:35:00",
-                  "status" : "Driving",
-                  "location" : "5mi NW Jacksboro, TN",
-                  "editReason" : "Hardware Failure",
-                  "notes" : "",
-                  "isEditable" : false,
-                  "uuid" : "97322cc3-c8d4-4349-96a3-b69d5506cba7",
-                  "duration" : "03:20",
-                  "driveDistance" : "0",
-                  "odometerKm" : "1364434.037632",
-                  "fromTime" : "11\/03\/2021 15:15:00"
-                },
-                {
-                  "toTime" : "11\/03\/2021 19:07:00",
-                  "status" : "OnDuty",
-                  "location" : "4mi WSW White, GA",
-                  "editReason" : "Hardware Failure",
-                  "notes" : "fueling",
-                  "isEditable" : false,
-                  "uuid" : "c40fa7f3-ee94-42e0-bc9c-1eaa6f3d2f1a",
-                  "duration" : "00:32",
-                  "driveDistance" : "0",
-                  "odometerKm" : "1368332.037632",
-                  "fromTime" : "11\/03\/2021 18:35:00"
-                },
-                {
-                  "toTime" : "11\/03\/2021 20:41:00",
-                  "status" : "Driving",
-                  "location" : "4mi WSW White, GA",
-                  "editReason" : "Hardware Failure",
-                  "notes" : "",
-                  "isEditable" : false,
-                  "uuid" : "ccb5dfbc-6600-4c63-b941-b274549278b5",
-                  "duration" : "01:34",
-                  "driveDistance" : "0",
-                  "odometerKm" : "1368333.037632",
-                  "fromTime" : "11\/03\/2021 19:07:00"
-                },
-                {
-                  "toTime" : "11\/03\/2021 21:06:00",
-                  "status" : "OnDuty",
-                  "location" : "4mi S McDonough, GA",
-                  "editReason" : "Hardware Failure",
-                  "notes" : "unloading",
-                  "isEditable" : false,
-                  "uuid" : "b970017a-1613-49e6-bcdb-2118b18d8f49",
-                  "duration" : "00:25",
-                  "driveDistance" : "0",
-                  "odometerKm" : "1368473.037632",
-                  "fromTime" : "11\/03\/2021 20:41:00"
-                },
-                {
-                  "toTime" : "11\/03\/2021 21:42:00",
-                  "status" : "sleeper",
-                  "location" : "4mi S McDonough, GA",
-                  "editReason" : "Hardware Failure",
-                  "notes" : "",
-                  "isEditable" : false,
-                  "uuid" : "4f0e13f3-885a-493a-8270-48b3130c4253",
-                  "duration" : "00:36",
-                  "driveDistance" : "0",
-                  "odometerKm" : "1368473.037632",
-                  "fromTime" : "11\/03\/2021 21:06:00"
-                },
-                {
-                  "toTime" : "11\/03\/2021 23:59:59",
-                  "status" : "Sleeper",
-                  "location" : "8mi SW Jackson, GA",
-                  "editReason" : "Hardware Failure",
-                  "notes" : "",
-                  "isEditable" : false,
-                  "uuid" : "4344508c-3c82-4266-b2a5-eb5e5b0f6b56",
-                  "duration" : "02:17",
-                  "driveDistance" : "0",
-                  "odometerKm" : "1368507.037632",
-                  "fromTime" : "11\/03\/2021 21:42:00"
-                }
+            "toTime" : "11\/03\/2021 01:07:00",
+            "status" : "onduty",
+            "isEditable" : false,
+            "duration" : "25:07",
+            "driveDistance" : "0",
+            "fromTime" : "11\/03\/2021 00:00:00"
+        },
+        {
+            "toTime" : "11\/03\/2021 01:58:00",
+            "status" : "Driving",
+            "notes" : "",
+            "isEditable" : false,
+            "duration" : "00:51",
+            "driveDistance" : "0",
+            "fromTime" : "11\/03\/2021 01:07:00"
+        },
+        {
+            "toTime" : "11\/03\/2021 02:17:00",
+            "status" : "YardMoves",
+            "isEditable" : false,
+            "duration" : "00:19",
+            "fromTime" : "11\/03\/2021 01:58:00"
+        },
+        {
+            "toTime" : "11\/03\/2021 06:25:00",
+            "status" : "Driving",
+            "isEditable" : false,
+            "duration" : "04:08",
+            "fromTime" : "11\/03\/2021 02:17:00"
+        },
+        {
+            "toTime" : "11\/03\/2021 06:37:00",
+            "status" : "OnDuty",
+            "isEditable" : false,
+            "uuid" : "d5ef8b43-21d7-499e-a25f-128cc61e61dd",
+            "duration" : "00:12",
+            "fromTime" : "11\/03\/2021 06:25:00"
+        },
+        {
+            "toTime" : "11\/03\/2021 07:09:00",
+            "status" : "Driving",
+            "isEditable" : false,
+            "duration" : "00:32",
+            "fromTime" : "11\/03\/2021 06:37:00"
+        },
+        {
+            "toTime" : "11\/03\/2021 15:04:00",
+            "status" : "PersonalConveyance",
+            "isEditable" : false,
+            "duration" : "07:55",
+            "fromTime" : "11\/03\/2021 07:09:00"
+        },
+        {
+            "toTime" : "11\/03\/2021 15:15:00",
+            "status" : "OnDuty",
+            "isEditable" : false,
+            "duration" : "00:11",
+            "fromTime" : "11\/03\/2021 15:04:00"
+        },
+        {
+            "toTime" : "11\/03\/2021 18:35:00",
+            "status" : "Driving",
+            "isEditable" : false,
+            "duration" : "03:20",
+            "fromTime" : "11\/03\/2021 15:15:00"
+        },
+        {
+            "toTime" : "11\/03\/2021 19:07:00",
+            "status" : "OnDuty",
+            "isEditable" : false,
+            "duration" : "00:32",
+            "fromTime" : "11\/03\/2021 18:35:00"
+        },
+        {
+            "toTime" : "11\/03\/2021 20:41:00",
+            "status" : "Driving",
+            "isEditable" : false,
+            "duration" : "01:34",
+            "fromTime" : "11\/03\/2021 19:07:00"
+        },
+        {
+            "toTime" : "11\/03\/2021 21:06:00",
+            "status" : "OnDuty",
+            "isEditable" : false,
+            "duration" : "00:25",
+            "fromTime" : "11\/03\/2021 20:41:00"
+        },
+        {
+            "toTime" : "11\/03\/2021 21:42:00",
+            "status" : "sleeper",
+            "isEditable" : false,
+            "duration" : "00:36",
+            "fromTime" : "11\/03\/2021 21:06:00"
+        },
+        {
+            "toTime" : "11\/03\/2021 23:59:59",
+            "status" : "Sleeper",
+            "isEditable" : false,
+            "duration" : "02:17",
+            "fromTime" : "11\/03\/2021 21:42:00"
+        }
     ]
 }
